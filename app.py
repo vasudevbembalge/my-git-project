@@ -1,7 +1,11 @@
+"""Simple number guessing game."""
+
+
 import random
 
 
 def guess_number():
+    """Generate a number and let user guess it."""
     secret = random.randint(1, 10)
     attempts = 0
 
